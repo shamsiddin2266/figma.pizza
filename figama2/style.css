@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.container{
+    width: 1800px;
+    height: 6000px;
+    margin: 0 auto;
+}
+.head{
+    width: 1800px;
+    height: 950px;
+    background: url(img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    position: relative;
+}
+.header{
+    display: flex;
+    padding-top: 70px;
+}
+.menu ul li {
+        float: left;
+        margin-left: 35px;
+}
+.menu ul li a{
+    transition: all .3s;
+}
+.menu{
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 400px;
+}
+.menu ul li a:hover{
+    color: #E79912;
+}
+.location{
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.car{
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    height: 25px;
+}
+.hbody{
+    display: flex;
+}
+.hleft{
+    margin-top: 180px;
+    margin-left: 160px;
+}
+.hright{
+    margin-left: -100px;
+    margin-top: 100px;
+}
+.sarlavha{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    color: #fff;
+    height: 120px;
+    width: 560px;
+}
+.info{
+    color:#fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    height: 44px;
+    width: 305px;
+    margin-top: 25px;
+}
+.button{
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    height: 67px;
+    line-height: 67px;
+    width: 210px;
+    border-radius: 25px;
+    background-color: #E79912; 
+    margin-top: 60px;    
+    transition: all .3s;
+}
+.button a{
+    color: #000;
+}
+
+.button:hover{
+    background-color: #e79912b1; 
+    transform: scale(.99);
+}
+.line1{
+    position: absolute;
+    top: 700px;
+    left: 900px;
+    rotate: 45deg;
+    width: 195px;
+    height: 5px;
+    background-color: #E85F0F;
+}
+.line2{
+    position: absolute;
+    top: 770px;
+    left: 1065px;
+    width: 195px;
+    height: 5px;
+    background-color: #E85F0F;
+}
+.name{
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;    
+    color:#fff;
+    margin-top: 10px;
+    margin-left: 400px;
+    height: 125px;
+    width: 306px;
+}
+.three{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 600px;
+    margin-top: 250px;
+}
+.three a {
+    float: right;
+    transition: all .3s;        
+}
+.three img {
+    margin-right: 15px;
+}
+.three ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.three ul li a:hover{
+    color: #E79912;
+}
+.hmenu2{
+    height: 121px;
+    width: 304px;
+    margin: 100px auto;
+    font-family: sans-serif;
+    font-size: 89px;
+    line-height: 121px;
+    font-weight: bold;
+}
+.clr{
+    margin: 0;
+}
+.clr ul li a {
+    color: #000;
+    font-size: 29px;
+}
+.clr ul li a:hover {
+    transition:  all .3s;
+    color: #E85F0C;
+    border-bottom: 1px solid #E85F0C;
+}
+.row{
+    margin: 0 auto;
+    width:1540px;
+}
+.pizza1{
+    display: flex;
+    margin-top:150px;
+    justify-content: space-evenly;
+}
+.pizza2{
+    display: flex;
+    margin-top:130px;
+    justify-content: space-evenly;
+}
+.box{
+    height: 437px;
+    width: 270px;
+    border-radius: 51px;    
+    box-shadow: 14px 14px 12px rgba(0, 0, 0, 0.25);
+    position: relative;
+    transition: all .3s;
+}
+.box img{
+    display: block;
+    margin: 0 auto;
+}
+.box_name{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;    
+    margin: 10px 0;
+}
+.small_row{
+    margin: 35px auto;
+    width: 160px;
+}
+.cost{
+    float: left;
+    color: #E85F0C;
+    font-size: 22px;
+    font-weight: bold;
+}
+.num{
+    width: 60px;
+    height: 17px;
+    text-align: center;
+    float: right;
+    border: 1px solid;
+    border-radius: 9px;
+}
+.zakaz{
+    height: 47px;
+    line-height: 47px;
+    width: 155px;
+    border-radius: 23px;    
+    text-align: center;
+    margin: 60px auto;
+    color: #fff;
+    transition: all .3s;
+    box-shadow: 0 0 5px #E85F0C ;
+}
+.zakaz a{
+    color: #000;
+}
+.zakaz a:hover{
+    color: #fff;
+}
+.zakaz:hover{
+    background: #E85F0C;
+    box-shadow: none;
+}
+.abouth{
+    font-family: sans-serif;
+    font-size: 67px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.about{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;    
+    line-height: 63px;
+}
+.img img{
+    margin: 80px auto;
+    display: block;
+}
+.footer{
+    background: url(img/footerbg.png);
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.hugetext{
+    width: 350px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0px auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 76px;
+    font-weight: 400;
+}
+.sections{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section{
+    height: 280px;
+    width: 500px;
+    border-radius: 56px;    
+    background-color: #fff;
+}
+.section_row{
+    margin: 0 auto;
+    width: 350px;
+}
+.infoimg{
+    font-family: sans-serif;
+    font-size: 37px;
+    line-height: 43px;
+    text-align: center;    
+    margin-bottom: 30px;
+}
+.section_info{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;    
+} 
+.section img{
+    display: block;
+    margin: 20px auto;
+}
+.mapinfo{
+    float: right;
+    background-color:  #E85F0F;
+    height: 500px;
+    width: 700px;
+}
+.mapinfo_row{
+    margin: 100 auto;
+    width: 500px;
+}
+.footh{
+    font-family: sans-serif;
+    font-size: 35px;
+    line-height: 41px;
+    color: #fff;
+    margin-left: 60px;
+}
+.adress{
+    margin-left: 60px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    color: rgba(255, 255, 255, 0.732);
+}
+.follow{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #fff;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.socialset{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
